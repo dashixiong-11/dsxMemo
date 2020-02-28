@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '@/views/Home.vue';
+import NotFound from '@/views/NotFound.vue';
 import Money from '@/views/money.vue'
 import Labels from '@/views/labels.vue'
 import Statistics from '@/views/statistics.vue'
@@ -25,6 +25,10 @@ const routes = [
         path:'/statistics',
         component: Statistics
 
+    },
+    {
+        path: '*',
+        component: NotFound
     }
 
     // {
