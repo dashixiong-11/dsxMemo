@@ -1,7 +1,8 @@
 <template>
    <div>
-      123
-      <Nav/>
+      <Layout>
+         labels
+      </Layout>
    </div>
    
 </template>

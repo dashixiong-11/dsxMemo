@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import NotFound from '@/views/NotFound.vue';
-import Money from '@/views/money.vue'
-import Labels from '@/views/labels.vue'
-import Statistics from '@/views/statistics.vue'
+import Money from '@/views/Money.vue'
+import Labels from '@/views/Labels.vue'
+import Statistics from '@/views/Statistics.vue'
 
 Vue.use(VueRouter);
 

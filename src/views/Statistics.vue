@@ -1,6 +1,8 @@
 <template>
    <div>
-      <Nav/>
+      <Layout>
+         统计
+      </Layout>
    </div>
    
 </template>
