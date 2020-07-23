@@ -1,12 +1,12 @@
 <template>
    <nav>
-      <router-link to="/money" class="item" active-class="selected">
-         <Icon name="Money"/>
-         记账
-      </router-link>
       <router-link to="/labels" class="item" active-class="selected">
-         <Icon name="Label"/>
-         标签
+         <Icon name="Detail"/>
+         明细
+      </router-link>
+      <router-link to="/money" class="item" active-class="selected">
+         <Icon name="Add"/>
+         记账
       </router-link>
       <router-link to="/statistics" class="item" active-class="selected">
          <Icon name="Statistics"/>
@@ -28,6 +28,10 @@
 
 <style scoped lang="scss">
    nav {
+      z-index: -1;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
       display: flex;
       box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
       flex-direction: row;

@@ -8,16 +8,18 @@
 </template>
 
 <script lang="ts">
-    export default {
-        name: 'Layout',
-    };
+   import Vue from 'vue'
+   import {Component,Prop} from 'vue-property-decorator';
+
+   @Component
+    export default class Layout extends Vue {
+    }
 </script>
 
 <style scoped lang="scss">
    .nav-wrapper{
       display: flex;
       flex-direction: column;
-      height: 100vh;
       .content{
          overflow: auto;
          flex-grow: 1;
